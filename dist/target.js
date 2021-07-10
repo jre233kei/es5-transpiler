@@ -15,12 +15,12 @@ var foo = function foo(arr) {
 
 console.log("result is ".concat(foo([1, 2, 3])));
 
-function a() {
-  return _a.apply(this, arguments);
+function b() {
+  return _b.apply(this, arguments);
 }
 
-function _a() {
-  _a = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+function _b() {
+  _b = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -37,7 +37,7 @@ function _a() {
       }
     }, _callee);
   }));
-  return _a.apply(this, arguments);
+  return _b.apply(this, arguments);
 }
 
-a();
+b();
