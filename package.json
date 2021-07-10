@@ -1,0 +1,20 @@
+{
+  "name": "es5-transpiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "gulp default"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
